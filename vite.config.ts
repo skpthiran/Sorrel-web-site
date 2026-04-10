@@ -4,16 +4,13 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // IMPORTANT for GitHub Pages: 
-  // If your site is hosted at username.github.io/sorrel (a project site), 
-  // uncomment the 'base' property below and make sure it matches your repo name exactly.
-  // base: '/sorrel/', 
+  // This tells Vite to load assets from the /Sorrel-web-site/ folder instead of the root
+  base: '/Sorrel-web-site/', 
   
   plugins: [react(), tailwindcss()],
   
   resolve: {
     alias: {
-      // Standard practice is to point '@' to the 'src' folder rather than the root '.'
       '@': path.resolve(__dirname, './src'), 
     },
   },
