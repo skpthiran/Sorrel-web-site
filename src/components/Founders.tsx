@@ -30,6 +30,7 @@ export default function Founders() {
           
           {/* Founder 1 */}
           <div className="founder-card group cursor-pointer">
+            <a href="https://skpthiran.github.io/Thiran-Wijesingha-portfolio/" target="_blank" rel="noopener noreferrer">
             <div className="relative aspect-[3/4] overflow-hidden mb-8 bg-concrete glitch-hover border border-gray-800">
               <img 
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
@@ -39,6 +40,7 @@ export default function Founders() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-asphalt via-transparent to-transparent opacity-80"></div>
             </div>
+            </a>
             <h3 className="font-display text-3xl md:text-4xl text-chrome mb-2 group-hover:text-cyan transition-colors">THIRAN WIJESINGHA</h3>
             <p className="font-mono text-cyan text-sm mb-4 tracking-widest">CEO / ARCHITECTURAL DIRECTOR</p>
             <p className="font-sans text-gray-400 text-lg">"Building the unified stack. Defining the algorithm."</p>
