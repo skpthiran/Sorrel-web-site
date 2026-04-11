@@ -33,7 +33,7 @@ export default function Founders() {
             <a href="https://skpthiran.github.io/Thiran-Wijesingha-portfolio/" target="_blank" rel="noopener noreferrer">
             <div className="relative aspect-[3/4] overflow-hidden mb-8 bg-concrete glitch-hover border border-gray-800">
               <img 
-                src="https://github.com/user-attachments/assets/0689bb29-31de-4bdf-af1a-ee53187a903a" 
+                src={`${import.meta.env.BASE_URL}images/thiran.svg`} 
                 alt="Thiran Wijesingha" 
                 className="w-full h-full object-cover grayscale contrast-150 brightness-75 group-hover:scale-105 transition-transform duration-700"
               />
@@ -49,7 +49,7 @@ export default function Founders() {
           <div className="founder-card group cursor-pointer md:mt-24">
             <div className="relative aspect-[3/4] overflow-hidden mb-8 bg-concrete glitch-hover border border-gray-800">
               <img 
-                src="https://github.com/user-attachments/assets/1916c6c5-874d-419d-a12f-87d7b83547dc" 
+                src={`${import.meta.env.BASE_URL}images/kaveen.svg`} 
                 alt="Kaveen" 
                 className="w-full h-full object-cover grayscale contrast-150 brightness-75 group-hover:scale-105 transition-transform duration-700"
               />
