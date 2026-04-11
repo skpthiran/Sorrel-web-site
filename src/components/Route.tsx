@@ -55,7 +55,7 @@ export default function Route() {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative min-h-screen w-full overflow-hidden bg-asphalt flex items-center justify-center py-32">
+    <section ref={containerRef} className="relative min-h-screen w-full overflow-hidden bg-asphalt flex items-center justify-center py-16 md:py-32">
       {/* Topographical Map Background */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="topo-bg absolute -inset-[20%] bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-luminosity grayscale"></div>
@@ -101,11 +101,11 @@ export default function Route() {
 
         {/* Copy */}
         <div ref={textRef} className="text-center max-w-4xl">
-          <h2 className="font-display text-5xl md:text-7xl text-chrome mb-8 leading-tight">
+          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-chrome mb-8 leading-tight">
             NO EXCUSES.<br/>
             <span className="text-cyan">AROUND THE CLOCK.</span>
           </h2>
-          <p className="font-mono text-lg md:text-xl text-gray-400 leading-relaxed">
+          <p className="font-mono text-sm sm:text-lg md:text-xl text-gray-400 leading-relaxed">
             "Our cross-border jurisdiction isn't a challenge; it's our engine. Capturing European non-dilutive capital while architecting unified Monorepo codebases. We run the night shift."
           </p>
         </div>
