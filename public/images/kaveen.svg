@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <defs>
+    <linearGradient id="kaveen-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#kaveen-bg)"/>
+  <!-- Head -->
+  <ellipse cx="150" cy="140" rx="55" ry="65" fill="#2e2e2e"/>
+  <!-- Body/shoulders -->
+  <ellipse cx="150" cy="360" rx="110" ry="90" fill="#2e2e2e"/>
+  <!-- Neck -->
+  <rect x="132" y="195" width="36" height="35" fill="#2e2e2e"/>
+</svg>
