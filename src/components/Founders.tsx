@@ -33,7 +33,7 @@ export default function Founders() {
             <a href="https://skpthiran.github.io/Thiran-Wijesingha-portfolio/" target="_blank" rel="noopener noreferrer">
             <div className="relative aspect-[3/4] overflow-hidden mb-8 bg-concrete glitch-hover border border-gray-800">
               <img 
-                src="https://github.com/user-attachments/assets/36ac0e21-0c77-467d-99b3-bd5ffd7e8a75" 
+                src="https://github.com/user-attachments/assets/0689bb29-31de-4bdf-af1a-ee53187a903a" 
                 alt="Thiran Wijesingha" 
                 className="w-full h-full object-cover grayscale contrast-150 brightness-75 group-hover:scale-105 transition-transform duration-700"
               />
