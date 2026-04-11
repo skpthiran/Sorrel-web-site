@@ -51,7 +51,7 @@ export default function Hero() {
       <div className="relative z-20 flex flex-col items-center text-center px-4 max-w-7xl mx-auto">
         <h1 
           ref={textRef}
-          className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] leading-none tracking-tighter text-chrome"
+          className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] leading-none tracking-tighter text-chrome sm:whitespace-nowrap"
           style={{ transformOrigin: '35% 25%' }}
         >
           WE M<span className="text-cyan">O</span>VE HUMAN<br/>CONNECTION.

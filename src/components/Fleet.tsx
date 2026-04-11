@@ -36,7 +36,7 @@ export default function Fleet() {
         {/* Bay 1: AURA */}
         <div className="fleet-card w-screen h-full flex items-center justify-center p-4 sm:p-8 md:p-24 relative">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
-          <div className="w-full max-w-5xl h-[75vh] sm:h-auto sm:aspect-video bg-asphalt border border-cyan/30 shadow-[0_0_50px_rgba(0,229,255,0.1)] relative overflow-hidden flex flex-col justify-between p-6 sm:p-10 md:p-16 group">
+          <div className="w-full max-w-5xl min-h-[75vh] sm:min-h-0 sm:h-auto sm:aspect-video bg-asphalt border border-cyan/30 shadow-[0_0_50px_rgba(0,229,255,0.1)] relative overflow-hidden flex flex-col justify-between p-6 sm:p-10 md:p-16 group">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-cyan to-transparent opacity-50"></div>
             
             <div className="flex justify-between items-start">
@@ -54,7 +54,7 @@ export default function Fleet() {
         {/* Bay 2: ECHO */}
         <div className="fleet-card w-screen h-full flex items-center justify-center p-4 sm:p-8 md:p-24 relative">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
-          <div className="w-full max-w-5xl h-[75vh] sm:h-auto sm:aspect-video bg-black border-2 border-gray-600 relative overflow-hidden flex flex-col justify-between p-6 sm:p-10 md:p-16">
+          <div className="w-full max-w-5xl min-h-[75vh] sm:min-h-0 sm:h-auto sm:aspect-video bg-black border-2 border-gray-600 relative overflow-hidden flex flex-col justify-between p-6 sm:p-10 md:p-16">
             <div className="flex justify-between items-start">
               <h3 className="font-display text-4xl sm:text-6xl md:text-8xl text-gray-200">ECHO</h3>
               <span className="font-mono text-gray-500 text-xs sm:text-sm md:text-xl border border-gray-600 px-3 py-1 sm:px-4 sm:py-2">BAY 02</span>
@@ -70,7 +70,7 @@ export default function Fleet() {
         {/* Bay 3: PACK */}
         <div className="fleet-card w-screen h-full flex items-center justify-center p-4 sm:p-8 md:p-24 relative">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1617791160505-6f00504e3519?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-luminosity"></div>
-          <div className="w-full max-w-5xl h-[75vh] sm:h-auto sm:aspect-video bg-[#1a1a1a] border-l-8 border-gray-400 relative overflow-hidden flex flex-col justify-between p-6 sm:p-10 md:p-16" style={{ backgroundImage: 'url("https://www.transparenttextures.com/patterns/concrete-wall.png")' }}>
+          <div className="w-full max-w-5xl min-h-[75vh] sm:min-h-0 sm:h-auto sm:aspect-video bg-[#1a1a1a] border-l-8 border-gray-400 relative overflow-hidden flex flex-col justify-between p-6 sm:p-10 md:p-16" style={{ backgroundImage: 'url("https://www.transparenttextures.com/patterns/concrete-wall.png")' }}>
             <div className="flex justify-between items-start">
               <h3 className="font-display text-4xl sm:text-6xl md:text-8xl text-gray-300">PACK</h3>
               <span className="font-mono text-gray-400 text-xs sm:text-sm md:text-xl bg-gray-800 px-3 py-1 sm:px-4 sm:py-2">BAY 03</span>
