@@ -51,13 +51,13 @@ export default function Hero() {
       <div className="relative z-20 flex flex-col items-center text-center px-4 max-w-7xl mx-auto">
         <h1 
           ref={textRef}
-          className="font-display text-6xl md:text-8xl lg:text-[10rem] leading-none tracking-tighter text-chrome whitespace-nowrap"
+          className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] leading-none tracking-tighter text-chrome"
           style={{ transformOrigin: '35% 25%' }}
         >
           WE M<span className="text-cyan">O</span>VE HUMAN<br/>CONNECTION.
         </h1>
         
-        <p className="mt-8 font-mono text-sm md:text-base text-gray-400 max-w-2xl uppercase tracking-widest leading-relaxed">
+        <p className="mt-6 md:mt-8 font-mono text-xs sm:text-sm md:text-base text-gray-400 max-w-2xl uppercase tracking-widest leading-relaxed px-2 md:px-0">
           The digital realm is isolated. We are the heavy infrastructure built to fix it. The multi-billion dollar engine of proximity.
         </p>
       </div>

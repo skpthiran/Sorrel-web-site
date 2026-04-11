@@ -22,9 +22,9 @@ export default function Founders() {
   }, []);
 
   return (
-    <section ref={containerRef} className="py-32 bg-asphalt relative border-t border-gray-800">
+    <section ref={containerRef} className="py-16 md:py-32 bg-asphalt relative border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="font-display text-5xl md:text-7xl text-chrome mb-20 text-center">THE LEAD DRIVERS</h2>
+        <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-chrome mb-10 md:mb-20 text-center">THE LEAD DRIVERS</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
           
